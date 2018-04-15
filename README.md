@@ -5,8 +5,6 @@
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/thuyiya/glitch-chat.svg?style=flat-square)](https://github.com/thuyiya/glitch-chat/issues-closed)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/thuyiya/glitch-chat.svg?style=flat-square)](https://github.com/thuyiya/glitch-chat/issues-pr)
 
-![- React Native](/docs/img/boilerplate_cover.png "React Native Boiler Plate")
-
 # glitch Chat
 
 This is example chat that create using [Sample Project](https://github.com/thuyiya/react-native-boilerplate)
