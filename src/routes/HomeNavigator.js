@@ -7,23 +7,12 @@ import Chats from '../screens/Chats';
 import Contacts from '../screens/Contacts';
 import ChatView from '../screens/Chat/ChatView';
 
-const Chat = StackNavigator({
-  Chats: {
-    screen: Chats,
-  },
-  ChatView: {
-    screen: ChatView,
-  },
-}, {
-  headerMode: 'none',
-});
-
 const HomeNavigator = StackNavigator({
   Home: { 
     screen: TabNavigator(
       {
         CALLS: { screen: Calls },
-        CHATS: { screen: Chat },
+        CHATS: { screen: Chats },
         CONTACTS: { screen: Contacts },
       },
       {
@@ -56,7 +45,7 @@ const HomeNavigator = StackNavigator({
         backgroundColor: 'white',
       },
       headerTitle: <Text>glitch&lt;CHAT&gt;</Text>,
-      headerLeft: <MaterialIcons name="keyboard-backspace" size={25} color="gray" style={{ paddingLeft: 10 }} />,
+      // headerLeft: <MaterialIcons name="keyboard-backspace" size={25} color="gray" style={{ paddingLeft: 10 }} />,
       headerRight: (
         <View style={{ flexDirection: 'row' }}>
           <MaterialIcons name="search" size={25} color="gray" style={{ padding: 5 }} />
@@ -65,7 +54,19 @@ const HomeNavigator = StackNavigator({
         </View>
       ),
     },
-  },       
+  },   
+  ChatView: {
+    screen: ChatView,
+    navigationOptions: ({ navigation }) => ({
+      headerLeft: <MaterialIcons 
+        name="keyboard-backspace" 
+        size={25} 
+        color="gray" 
+        style={{ paddingLeft: 20 }} 
+        onPress={() => navigation.goBack()}
+      />,
+    }),
+  },    
 }, {
   mode: 'modal',
 });
