@@ -9,6 +9,11 @@
 
 This is example chat that create using [Sample Project](https://github.com/thuyiya/react-native-boilerplate)
 
+![N|Solid](/docs/img/1.jpg)
+![N|Solid](/docs/img/2.jpg)
+![N|Solid](/docs/img/3.jpg)
+![N|Solid](/docs/img/4.jpg)
+
 ---
 
 ## Docs
