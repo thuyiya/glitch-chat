@@ -9,10 +9,7 @@
 
 This is example chat that create using [Sample Project](https://github.com/thuyiya/react-native-boilerplate)
 
-![N|Solid](/docs/img/1.jpg | width=320)
-![N|Solid](/docs/img/2.jpg | width=320)
-![N|Solid](/docs/img/3.jpg | width=320)
-![N|Solid](/docs/img/4.jpg | width=320)
+![N|Solid](/docs/img/screen_shots.png)
 
 ---
 
